@@ -16,11 +16,8 @@ try:
 
     browser.find_element(By.CSS_SELECTOR,"button").click()
 
-
 finally:
     # успеваем скопировать код за 30 секунд
     time.sleep(5)
     # закрываем браузер после всех манипуляций
     browser.quit()
-
-    
